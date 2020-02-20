@@ -40,5 +40,11 @@ var startOver = document.querySelectorAll("#boxes div");
 var link = document.getElementsByClassName('link');
 
 function toggleStartOver() {
-    startOver.classList.add('show');
+    for (i = 0; i < link.length; i++) {
+        link[i].classList.add('show');
+    }
+}
+
+for (i = 0; i < boxes.length; i++) {
+    boxes[i].addEventListener('click', toggleStartOver);
 }
