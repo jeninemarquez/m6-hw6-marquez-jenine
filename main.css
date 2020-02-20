@@ -7,8 +7,23 @@
 h1, h2, h3, p, a {
     text-align: center;
     text-transform: uppercase;
+}
+
+h1, h2, h3, p {
     padding: 3%;
 }
+
+a {
+    color: #6003C3;
+    padding: 1% 2%;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: thistle;
+}
+
 h1 {
     background-color: #6003C3;
     color: white;
@@ -50,3 +65,4 @@ div {
 #box-three {
     background-color: greenyellow;
 }
+
